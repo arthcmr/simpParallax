@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Parallax Example</title>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="ocean" data-parallax="true" data-factor="0.5" data-parallaxtype="background">
+	</div>
+	<div id="fish">
+		<div id="fish1" class="fish" data-parallax="true" data-parallaxtype="top" data-factor="2">
+			<img src="img/fish1.png">
+		</div>
+		<div id="fish2" class="fish" data-parallax="true" data-parallaxtype="top" data-factor="0.7" >
+			<img src="img/fish2.png">
+		</div>
+		<div id="fish3" class="fish" data-parallax="true" data-parallaxtype="top" data-factor="0.5">
+			<img src="img/fish3.png">
+		</div>
+		<div id="fish4" class="fish" data-parallax="true" data-parallaxtype="top" data-factor="0.6">
+			<img src="img/fish4.png">
+		</div>
+		<div id="fish5" class="fish" data-parallax="true" data-parallaxtype="top" data-factor="1.5">
+			<img src="img/fish5.png">
+		</div>
+		<div id="fish6" class="fish" data-parallax="true" data-parallaxtype="top" data-factor="0.7" >
+			<img src="img/fish2.png">
+		</div>
+		<div id="fish7" class="fish" data-parallax="true" data-parallaxtype="top" data-factor="0.5">
+			<img src="img/fish3.png">
+		</div>
+	</div>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="../jquery.simpParallax.min.js"></script>
+	<script>
+		$(function() {
+			$.simpParallax();
+		});
+	</script>
+
+</body>
+</html>
